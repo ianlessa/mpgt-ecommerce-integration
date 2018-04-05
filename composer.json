@@ -1,0 +1,22 @@
+{
+    "name": "limalessa/ecommerce-integration",
+    "authors": [
+        {
+            "name": "Ian Lessa",
+            "email": "ian.lessa1@gmail.com"
+        },
+        {
+            "name": "Michel Lima",
+            "email": "michelpl@yahoo.com.br"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "autoload":{
+        "psr-4": {
+            "LimaLessa\\EcommerceIntegration\\" : "application\\"
+        }
+    }
+
+}
